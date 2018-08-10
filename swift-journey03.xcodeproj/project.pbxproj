@@ -12,6 +12,13 @@
 		3C43CFC0211DC1710052DC3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C43CFBE211DC1710052DC3E /* Main.storyboard */; };
 		3C43CFC2211DC1720052DC3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C43CFC1211DC1720052DC3E /* Assets.xcassets */; };
 		3C43CFC5211DC1720052DC3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C43CFC3211DC1720052DC3E /* LaunchScreen.storyboard */; };
+		3C43CFDC211DD1920052DC3E /* kick1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3C43CFDB211DD1920052DC3E /* kick1.wav */; };
+		3C43CFDE211DD4C10052DC3E /* snare1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3C43CFDD211DD4C10052DC3E /* snare1.wav */; };
+		3C43CFE5211DD5300052DC3E /* hihat1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3C43CFE4211DD5300052DC3E /* hihat1.wav */; };
+		3C43CFE7211DD53A0052DC3E /* tom1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3C43CFE6211DD53A0052DC3E /* tom1.wav */; };
+		3C43CFE9211DD53E0052DC3E /* tom2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3C43CFE8211DD53E0052DC3E /* tom2.wav */; };
+		3C43CFEB211DD5460052DC3E /* ride1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3C43CFEA211DD5460052DC3E /* ride1.wav */; };
+		3C43CFED211DD54D0052DC3E /* crash1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3C43CFEC211DD54D0052DC3E /* crash1.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		3C43CFC1211DC1720052DC3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C43CFC4211DC1720052DC3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C43CFC6211DC1720052DC3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C43CFDB211DD1920052DC3E /* kick1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kick1.wav; sourceTree = "<group>"; };
+		3C43CFDD211DD4C10052DC3E /* snare1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = snare1.wav; sourceTree = "<group>"; };
+		3C43CFE4211DD5300052DC3E /* hihat1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = hihat1.wav; path = "../../../../../../Downloads/[99Sounds] 99 Drum Samples/Samples/hihat1.wav"; sourceTree = "<group>"; };
+		3C43CFE6211DD53A0052DC3E /* tom1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = tom1.wav; path = "../../../../../../Downloads/[99Sounds] 99 Drum Samples/Samples/tom1.wav"; sourceTree = "<group>"; };
+		3C43CFE8211DD53E0052DC3E /* tom2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = tom2.wav; path = "../../../../../../Downloads/[99Sounds] 99 Drum Samples/Samples/tom2.wav"; sourceTree = "<group>"; };
+		3C43CFEA211DD5460052DC3E /* ride1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ride1.wav; path = "../../../../../../Downloads/[99Sounds] 99 Drum Samples/Samples/ride1.wav"; sourceTree = "<group>"; };
+		3C43CFEC211DD54D0052DC3E /* crash1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = crash1.wav; path = "../../../../../../Downloads/[99Sounds] 99 Drum Samples/Samples/crash1.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 		3C43CFB9211DC1710052DC3E /* swift-journey03 */ = {
 			isa = PBXGroup;
 			children = (
+				3C43CFCC211DC1C20052DC3E /* Sound Files */,
 				3C43CFBA211DC1710052DC3E /* AppDelegate.swift */,
 				3C43CFBC211DC1710052DC3E /* ViewController.swift */,
 				3C43CFBE211DC1710052DC3E /* Main.storyboard */,
@@ -62,6 +77,20 @@
 				3C43CFC6211DC1720052DC3E /* Info.plist */,
 			);
 			path = "swift-journey03";
+			sourceTree = "<group>";
+		};
+		3C43CFCC211DC1C20052DC3E /* Sound Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C43CFDB211DD1920052DC3E /* kick1.wav */,
+				3C43CFE4211DD5300052DC3E /* hihat1.wav */,
+				3C43CFE6211DD53A0052DC3E /* tom1.wav */,
+				3C43CFEA211DD5460052DC3E /* ride1.wav */,
+				3C43CFE8211DD53E0052DC3E /* tom2.wav */,
+				3C43CFEC211DD54D0052DC3E /* crash1.wav */,
+				3C43CFDD211DD4C10052DC3E /* snare1.wav */,
+			);
+			path = "Sound Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +151,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C43CFE9211DD53E0052DC3E /* tom2.wav in Resources */,
+				3C43CFDE211DD4C10052DC3E /* snare1.wav in Resources */,
+				3C43CFE7211DD53A0052DC3E /* tom1.wav in Resources */,
 				3C43CFC5211DC1720052DC3E /* LaunchScreen.storyboard in Resources */,
 				3C43CFC2211DC1720052DC3E /* Assets.xcassets in Resources */,
+				3C43CFED211DD54D0052DC3E /* crash1.wav in Resources */,
+				3C43CFDC211DD1920052DC3E /* kick1.wav in Resources */,
 				3C43CFC0211DC1710052DC3E /* Main.storyboard in Resources */,
+				3C43CFE5211DD5300052DC3E /* hihat1.wav in Resources */,
+				3C43CFEB211DD5460052DC3E /* ride1.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
