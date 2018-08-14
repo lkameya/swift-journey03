@@ -1,6 +1,8 @@
-# swift-journey03
+# swift-journey03 - Drums Station
 
 The third project of my Swift Journey - Step by Step
+
+You can play the drums with your fingers!
 
 ![alt text](https://github.com/lkameya/swift-journey03/blob/master/drums.png)
 
